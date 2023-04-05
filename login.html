@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hersey">
+        <div class="form-kutusu">
+            <div class="buton-kutusu">
+                <div id="deneme"></div>
+                <button type="button" class="gir" onclick="giris()">Giriş Yap</button>
+                <button type="button" class="gir" onclick="kayit()">Kayıt Ol</button>
+            </div>
+            <div class="sosyal-medya">
+                <img src="facebook.jpg">
+                <img src="google.png">
+                <img src="twitter.jpg">
+            </div>
+            <form id="e-giris" class="ekstra">
+                <input type="text" class="golge" placeholder="Kullanıcı Adı" required>
+                <input type="text" class="golge" placeholder="Şifre" required>
+                <input type="checkbox" class="sorgula"><span>Parolamı Unuttum</span>
+                <button type="submit" class="gonder">Giriş Yap</button>
+            </form>
+            <form id="e-kayit" class="ekstra">
+                <input type="text" class="golge" placeholder="Kullanıcı Adı"required>
+                <input type="email" class="golge" placeholder="E-mail"required>
+                <input type="text" class="golge" placeholder="Şifre"required>
+                <input type="checkbox" class="sorgula"><span>Şartları Kabul Ediyorum</span>
+                <button type="submit" class="gonder">Kayıt Ol</button>
+            </form>
+        </div>
+
+        <script>
+            var x = document.getElementById("e-giris");
+            var y = document.getElementById("e-kayit");
+            var z = document.getElementById("deneme");
+
+           function kayit(){
+            x.style.left = "-400px";
+            y. style.left = "50px";
+            z.style.left = "110px";
+           }
+
+           function giris(){
+            x.style.left = "50px";
+            y. style.left = "450px";
+            z.style.left = "0px";
+           }
+
+        </script>
+       
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

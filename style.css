@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+
+.hersey{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.form-kutusu{
+    width: 380px;
+    height:480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.buton-kutusu{
+    width: 230px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.gir{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#deneme{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 140px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ff195f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.sosyal-medya{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.sosyal-medya img{
+   width: 45px;
+   margin: 0 12px;
+   box-shadow: 0 0 20px 0 #7f7f7f3d;
+   cursor: pointer;
+   border-radius: 50%;
+}
+
+.ekstra{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.ekstra{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.golge{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.gonder{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ff195f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.sorgula{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color:#777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#e-giris{
+    left: 50px;
+}
+#e-kayit{
+    left: 450px;
+}
+
